@@ -1,8 +1,96 @@
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mascotería Michigan - Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {    
+            --verde-oscuro: #2d5a27;
+            --verde-claro: #8bc34a;
+            --verde-boton: #4caf50;
+        }
+        body { padding-top: 110px; }
+        .navbar { background-color: var(--verde-oscuro) !important; }
+        header { background-color: var(--verde-claro) !important; color: white; }
+        .btn-primary { background-color: var(--verde-boton) !important; border: none; }
+       .navbar-brand {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            font-weight: bold;
+            font-size: 1.8rem;
+            color: white; 
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+        .navbar-brand img {
+            height: 120px; 
+            width: auto;
+            position: absolute; 
+            top: -30px;        
+            left: -30px;
+            z-index: 1000;     
+            filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.2));} 
+
+        .brand-text {
+            margin-left: 130px; 
+            font-weight: bold;
+            font-size: 2rem;
+        }   
+        .navbar {
+            height: 70px; 
+            background-color: var(--verde-oscuro) !important;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="indexae4.html">
+            <img src="images/mascoteria michigan.png" alt="Logo"> 
+                <span class="brand-text">Mascotería Michigan :3</span> </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="indexae4.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="acerca.html">Acerca de</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="text-center py-5 mb-4">
+        <div class="container">
+            <h1>¡Bienvenidos a Mascotería Michigan!</h1>
+            <p class="lead">Lo mejor para tus amigos peludos.</p>
+        </div>
+    </header>
+
+    <main class="container text-center mb-5">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Alimentos</h3>
+                <p>Nutrición de alta calidad.</p>
+                <button class="btn btn-primary">Ver más</button>
+            </div>
+            <div class="col-md-4">
+                <h3>Accesorios</h3>
+                <p>Diversión garantizada.</p>
+                <button class="btn btn-primary">Ver más</button>
+            </div>
+            <div class="col-md-4">
+                <h3>Estética</h3>
+                <p>Baño y peluquería.</p>
+                <button class="btn btn-primary">Ver más</button>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <footer>
+    <p>&copy; 2026 Mascotería Michigan - Todos los derechos reservados</p>
+</footer>
+</body>
+</html>
